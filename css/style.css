@@ -401,6 +401,11 @@ footer .footer-container .small-form {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+  }
   body .container header nav {
     display: flex;
   }
