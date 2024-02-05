@@ -551,6 +551,7 @@ footer .footer-container .small-form {
     background-size: contain;
     display: flex;
     justify-content: end;
+    margin-bottom: 5%;
   }
   #form .web-dev {
     width: 60%;
