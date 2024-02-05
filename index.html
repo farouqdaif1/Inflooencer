@@ -42,8 +42,10 @@
         <section id="slogan">
           <div class="slogan-text">
             <div id="text">
-              Turn Moments<br />
-              <span> Into Treasures </span>
+              <p>
+                <span>Turn Moments</span> <br />
+                <span> Into Treasures </span>
+              </p>
             </div>
             <div id="mobile">
               <img fetchpriority="high" src="images/mobile.webp" alt="mobile" />
@@ -51,25 +53,29 @@
           </div>
           <div class="app-benefits">
             <div class="benefit">
-              <h3>Empowerment:</h3>
+              <h4>Empowerment:</h4>
               <p>
                 Inflooencer empowers creativity into currency. Whether you're an
                 influencer, content creator, or just love sharing moments, earn
                 rewards for your contributions.
               </p>
-              <div><img src="images/Rectangle.png" alt="line" /></div>
+              <div class="line">
+                <img src="images/Rectangle.png" alt="line" />
+              </div>
             </div>
             <div class="benefit">
-              <h3>Community:</h3>
+              <h4>Community:</h4>
               <p>
                 Join Inflooencer's vibrant community of like-minded individuals.
                 Connect with fellow creators, supporters, and friends who uplift
                 and inspire each other every step of the way.
               </p>
-              <div><img src="images/Rectangle.png" alt="line" /></div>
+              <div class="line">
+                <img src="images/Rectangle.png" alt="line" />
+              </div>
             </div>
             <div class="benefit">
-              <h3>Exclusivity:</h3>
+              <h4>Exclusivity:</h4>
               <p>
                 Inflooencer welcomes all. Every voice matters. Join us for an
                 inclusive and rewarding social media experience today.
@@ -78,44 +84,49 @@
           </div>
         </section>
         <section id="form">
-          <div class="waitlist-benefits">
-            <h3>Join the <span>Inflooencer</span> Waitlist:</h3>
-            <h4>Benefits of Joining :</h4>
-            <div class="benefit-div">
-              <p>
-                <span>Early Access:</span> Be among the first to explore
-                Inflooencer before its official launch.
-              </p>
-              <p>
-                <span>Monetization Opportunities:</span>
-                Earn money from your content through tips, or other earning
-                potentials.
-              </p>
-              <p>
-                <span>Exclusive Rewards:</span>Get special incentives as an
-                early adopter.
-              </p>
-              <p>
-                <span>Beta Testing: </span>
-                Try new features and provide feedback to improve the platform.
-                Join us now!
-              </p>
+          <div class="web-dev">
+            <div class="waitlist-benefits">
+              <h3>Join the <span>Inflooencer</span> Waitlist:</h3>
+              <h4>Benefits of Joining :</h4>
+              <div class="benefit-div">
+                <p>
+                  <span>Early Access:</span> Be among the first to explore
+                  Inflooencer before its official launch.
+                </p>
+                <p>
+                  <span>Monetization Opportunities:</span>
+                  Earn money from your content through tips, or other earning
+                  potentials.
+                </p>
+                <p>
+                  <span>Exclusive Rewards:</span>Get special incentives as an
+                  early adopter.
+                </p>
+                <p>
+                  <span>Beta Testing: </span>
+                  Try new features and provide feedback to improve the platform.
+                  Join us now!
+                </p>
+              </div>
             </div>
+            <form action="process_form.php" method="post">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+              />
+              <label for="email"> Email Address </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder=" Your email address"
+              />
+              <input type="submit" value="I'm in" id="Button" />
+            </form>
           </div>
-          <form action="process_form.php" method="post">
-            <h2>Join the Inflooencer Waitlist</h2>
-
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Your name" />
-            <label for="email"> Email Address </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder=" Your email address"
-            />
-            <input type="submit" value="I'm in" id="Button" />
-          </form>
         </section>
         <section id="download-app">
           <h2>
