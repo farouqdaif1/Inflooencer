@@ -112,7 +112,7 @@ body .container header nav .logo img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Caveat";
+  font-family: "Caveat", "cursive";
   font-size: 28px;
   font-weight: 400;
   line-height: 39px;
@@ -400,21 +400,6 @@ footer .footer-container .small-form {
   padding: 1%;
 }
 @media only screen and (min-width: 1024px) {
-  @font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
-    font-weight: 1 1000;
-    font-style: oblique 0deg 10deg;
-    font-display: optional;
-  }
-  @font-face {
-    font-family: "Caveat";
-    src: url("../fonts/Caveat-VariableFont_wght.ttf") format("truetype");
-    font-weight: 1 1000;
-    font-style: oblique 0deg 10deg;
-    font-display: optional;
-  }
-
   body {
     margin-left: 50px;
     margin-right: 50px;
@@ -839,7 +824,7 @@ footer .footer-container .small-form {
     position: relative;
   }
   .slogan-text #text {
-    background-image: url(../images/web-slogan.webp);
+    background-image: url("../images/web-slogan.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0;
