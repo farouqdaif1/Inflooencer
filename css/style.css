@@ -399,7 +399,7 @@ footer .footer-container .small-form {
   height: 185px;
   padding: 1%;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
   body {
     margin-left: 50px;
     margin-right: 50px;
@@ -461,18 +461,19 @@ footer .footer-container .small-form {
   #slogan {
     color: #ffffff;
     width: 100%;
+    height: auto;
   }
   .slogan-text {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
-    height: 70vh;
-    margin-bottom: 10%;
   }
   .slogan-text #text {
     background-image: url("../images/web-slogan.webp");
@@ -506,23 +507,19 @@ footer .footer-container .small-form {
     width: 40%;
   }
   .slogan-text #mobile {
-    position: absolute;
     width: 20%;
     max-width: 368.14px;
-    top: 0%;
-    left: 40%;
   }
 
   #slogan .app-benefits {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    height: 30vh;
+    align-items: center;
+    height: 30%;
     background-image: none;
     width: 90%;
-    margin-top: 7%;
-    margin-bottom: 0%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -555,7 +552,7 @@ footer .footer-container .small-form {
     margin-top: 3%;
     background-image: url("../images/benfit-background.png");
     background-repeat: no-repeat;
-    background-position: 0%;
+    background-position: -17.5%;
     background-size: contain;
     display: flex;
     justify-content: end;
@@ -643,7 +640,6 @@ footer .footer-container .small-form {
   #download-app {
     color: #ffffff;
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -658,7 +654,7 @@ footer .footer-container .small-form {
   #download-app h2 {
     width: 50%;
     position: absolute;
-    top: 40%;
+    bottom: 35%;
     left: 0%;
     font-family: "Inter";
     font-size: 4em;
@@ -786,5 +782,268 @@ footer .footer-container .small-form {
   }
   footer .footer-container .social {
     width: 15%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #logo-header {
+    width: 65%;
+    max-width: 781px;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+  }
+  #about-app p {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  #about-app p br {
+    display: none;
+  }
+  .slogan-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+  }
+  .slogan-text #text {
+    background-image: url(../images/web-slogan.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.0075em;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+  .slogan-text #text p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 0.8em;
+  }
+  .slogan-text #mobile {
+    width: 20%;
+    max-width: 368.14px;
+  }
+  #slogan .app-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    background-image: none;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #slogan .app-benefits .benefit .line {
+    display: none;
+  }
+  #form .waitlist-benefits .benefit-div {
+    width: 100%;
+  }
+  #form .waitlist-benefits .benefit-div p {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-right: 0;
+  }
+  #form {
+    background-image: none;
+  }
+  #form form {
+    width: 100%;
+  }
+  #form .web-dev {
+    width: 100%;
+  }
+  #form form #email {
+    padding: 4%;
+  }
+  #form form #name {
+    padding: 4%;
+  }
+  #download-app {
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0%;
+    position: relative;
+    background-image: url(../images/download-web.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0%;
+  }
+  #download-app h2 {
+    width: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 0%;
+    font-family: "Inter";
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .download-mobile {
+    margin-top: 5%;
+    background-image: none;
+    width: 50%;
+    height: 100%;
+    max-width: 720.05px;
+    max-height: 719px;
+  }
+  .download-button {
+    position: absolute;
+    width: 40%;
+    bottom: 8%;
+    left: 0%;
+  }
+  footer {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 237px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .footer-container .logo {
+    display: flex;
+    width: 20%;
+    max-width: 200px;
+  }
+  footer .footer-container .footer-links {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 127px;
+    margin-left: 35px;
+  }
+  footer .footer-container .social {
+    width: 15%;
+  }
+  footer .footer-container .small-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 35%;
+    height: 185px;
+    padding: 2.5%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  footer .footer-container .small-form form h5 {
+    font-family: "Inter";
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 5%;
+  }
+  footer .footer-container .small-form .form-div {
+    position: relative;
+    display: flex;
+  }
+  footer .footer-container .small-form form input {
+    width: 100%;
+    outline: none;
+    margin-bottom: 5%;
+    padding: 3.5%;
+    border: 1px solid #686e7e;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  footer .footer-container .small-form form button {
+    width: 15%;
+    height: 70%;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    background-color: #ffb400;
+    outline: none;
+    border: none;
+    padding: 3.5%;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -ms-border-radius: 0 8px 8px 0;
+    -o-border-radius: 0 8px 8px 0;
+  }
+  footer .footer-container .small-form form p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #686e7e;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #logo-header {
+    width: 240px;
   }
 }
