@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Add more fields as needed
 
     // Compose email
-    $to = "daiffarouq@gmail.com";
+    $to = "social@inflooencer.com";
     $subject = "Add me to wait list";
     $message = "Name: $name\nEmail: $email\n";
     // Add more fields to the message as needed
