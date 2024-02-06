@@ -461,7 +461,8 @@ footer .footer-container .small-form {
   #slogan {
     color: #ffffff;
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    min-height: 50vh;
   }
   .slogan-text {
     display: flex;
