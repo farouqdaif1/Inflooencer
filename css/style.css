@@ -507,7 +507,8 @@ footer .footer-container .small-form {
     width: 40%;
   }
   .slogan-text #mobile {
-    width: 20%;
+    /* width: 20%; */
+    width: 200px;
     max-width: 368.14px;
   }
 
