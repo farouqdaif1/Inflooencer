@@ -795,6 +795,15 @@ footer .footer-container .small-form {
   footer .footer-container .social {
     width: 15%;
   }
+  footer .footer-container .social a {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+  }
+  footer .footer-container .social a img {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #logo-header {
