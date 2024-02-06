@@ -3,14 +3,14 @@
   src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
   font-weight: 1 1000;
   font-style: oblique 0deg 10deg;
-  font-display: swap;
+  font-display: optional;
 }
 @font-face {
   font-family: "Caveat";
   src: url("../fonts/Caveat-VariableFont_wght.ttf") format("truetype");
   font-weight: 1 1000;
   font-style: oblique 0deg 10deg;
-  font-display: swap;
+  font-display: optional;
 }
 
 * {
