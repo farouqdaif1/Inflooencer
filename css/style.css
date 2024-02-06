@@ -141,7 +141,7 @@ body .container header nav .logo img {
 #slogan .app-benefits .benefit {
   width: 209px;
 }
-#slogan .app-benefits .benefit h4 {
+#slogan .app-benefits .benefit h2 {
   color: #ffb400;
   font-family: "Inter";
   font-size: 16px;
@@ -383,11 +383,11 @@ footer .footer-container .footer-links .company {
 }
 footer .footer-container .footer-links .company a {
   text-decoration: none;
-  color: #848997;
+  color: #686e7e;
 }
 footer .footer-container .footer-links .info a {
   text-decoration: none;
-  color: #848997;
+  color: #686e7e;
 }
 footer .footer-container .social {
   width: 40%;
@@ -530,7 +530,7 @@ footer .footer-container .small-form {
     width: 32%;
     position: relative;
   }
-  #slogan .app-benefits .benefit h4 {
+  #slogan .app-benefits .benefit h2 {
     font-family: "Inter";
     font-size: 36px;
     font-weight: 700;
@@ -751,6 +751,7 @@ footer .footer-container .small-form {
   }
   footer .footer-container .small-form form button {
     width: 15%;
+    height: 70%;
     position: absolute;
     top: 1px;
     right: 0;
