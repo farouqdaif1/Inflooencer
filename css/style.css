@@ -462,7 +462,7 @@ footer .footer-container .small-form {
     color: #ffffff;
     width: 100%;
     /* height: auto; */
-    min-height: 50vh;
+    /* min-height: 50vh; */
   }
   .slogan-text {
     display: flex;
