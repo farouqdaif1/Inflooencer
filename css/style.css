@@ -415,6 +415,7 @@ footer .footer-container .small-form {
   #about-app {
     width: 100%;
     color: #ffffff;
+    max-height: 100vh;
   }
   #logo-header {
     width: 65%;
@@ -465,6 +466,7 @@ footer .footer-container .small-form {
     width: 100%;
     /* height: auto; */
     /* min-height: 50vh; */
+    max-height: 100vh;
   }
   .slogan-text {
     display: flex;
@@ -565,6 +567,7 @@ footer .footer-container .small-form {
     display: flex;
     justify-content: end;
     margin-bottom: 5%;
+    max-height: 100vh;
   }
   #form .web-dev {
     width: 60%;
@@ -658,6 +661,7 @@ footer .footer-container .small-form {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0%;
+    max-height: 100vh;
   }
   #download-app h2 {
     width: 50%;
