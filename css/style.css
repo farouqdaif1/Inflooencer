@@ -440,6 +440,7 @@ footer .footer-container .small-form {
     letter-spacing: 0.0075em;
     text-align: center;
     color: #ffb400;
+    height: 10%;
   }
   #about-app p {
     width: 85%;
@@ -453,6 +454,7 @@ footer .footer-container .small-form {
     line-height: 32px;
     letter-spacing: 0.05em;
     text-align: center;
+    height: 50%;
   }
   #about-app p br {
     display: none;
