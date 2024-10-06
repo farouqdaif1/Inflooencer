@@ -1,0 +1,24 @@
+{
+  "eslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true, // Ensure format on save is enabled for HTML
+    "editor.suggest.insertMode": "replace"
+  },
+  "prettier.requireConfig": true, // Optional: only format files if a Prettier config is present
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass"
+  ],
+  "liveServer.settings.donotVerifyTags": false,
+  "liveServer.settings.fullReload": true, // Forces a full reload on file change
+  "liveServer.settings.port": 5500
+}
